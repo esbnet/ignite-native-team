@@ -1,5 +1,5 @@
 import { Loading } from "@/components/Loading";
-import { Groups } from "@/screens/Groups";
+import { NewGroup } from "@/screens/NewGroup";
 import {
   Roboto_400Regular,
   Roboto_700Bold,
@@ -19,7 +19,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <StatusBar style="inverted" translucent/>
-      { fontsLoaded ? <Groups /> : <Loading />}
+      { fontsLoaded ? <NewGroup /> : <Loading />}
     </ThemeProvider>
   );
 }
