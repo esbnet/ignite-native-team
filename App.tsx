@@ -1,5 +1,5 @@
 import { Loading } from "@/components/Loading";
-import { Players } from "@/screens/Players";
+import { Routes } from "@/routes";
 import {
   Roboto_400Regular,
   Roboto_700Bold,
@@ -19,7 +19,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <StatusBar style="inverted" translucent/>
-      { fontsLoaded ? <Players /> : <Loading />}
+      { fontsLoaded ? <Routes /> : <Loading />}
     </ThemeProvider>
   );
 }
