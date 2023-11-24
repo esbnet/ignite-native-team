@@ -1,5 +1,5 @@
 # team
-Este aplicativo, de código aberto (licença MIT), é de caráter educativo, totalmente funcional e tem a finaliade de cadastrar turmas de amigos e organizar times para disputas de games. Apesar da aparente simplicidades, seu desenvolvimento exige a utilização de conceitos primordiais para o desenvolvimento de aplicativos móveis. 
+Este aplicativo, de código aberto (licença MIT), é de caráter educativo, totalmente funcional e tem a finalidade de cadastrar turmas de amigos e organizar times para disputas de games. Apesar da aparente simplicidades, seu desenvolvimento exige a utilização de conceitos primordiais para o desenvolvimento de aplicativos móveis. 
 
 
 ## techs
