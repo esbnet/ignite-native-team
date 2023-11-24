@@ -45,6 +45,8 @@ export function NewGroup() {
           placeholder="Nome da turma"
           onChangeText={setGroupName}
           value={groupName}
+          onSubmitEditing={handleAddGroup}
+          returnKeyType="done"
         />
         <Button
           title="Criar"
